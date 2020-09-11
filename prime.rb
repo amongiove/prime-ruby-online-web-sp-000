@@ -9,4 +9,3 @@ def prime?(n)
     return false if n % int == 0
   end
 end
-end
