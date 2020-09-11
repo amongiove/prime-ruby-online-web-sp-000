@@ -1,5 +1,6 @@
-reqire prime
-
 def prime?(n)
-  Prime.n
+  if n % !n == 0
+    return false
+  else
+    return true
 end
