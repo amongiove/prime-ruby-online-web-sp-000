@@ -7,5 +7,6 @@ def prime?(n)
 
   (2..n-1).each do |int|
     return false if n % int == 0
+    true
   end
 end
